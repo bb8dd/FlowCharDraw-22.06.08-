@@ -35,6 +35,7 @@ const folderDribbleStop = () => {
 }
 
 const mouseMove = setInterval(move, 100);
+const mouseStop = clearInterval(mouseMove);
 
 folder.addEventListener("mousedown", folderDribble);
-window.addEventListener("mouseup", folderDribbleStop);
+window.addEventListener("mouseup", mouseStop);
