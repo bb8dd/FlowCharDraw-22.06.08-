@@ -29,7 +29,7 @@ const folderDribbleStop = () => {
     console.log("들어옴")
     isPress = false;
     if(!isPress) {
-        console.log("들어옴!!!!!!!!!!!!!!!!!!!!!!")
+        console.log("들어옴!!!!")
         clearInterval(mouseMove);
     }
 }
