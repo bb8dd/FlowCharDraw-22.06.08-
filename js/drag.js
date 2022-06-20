@@ -34,6 +34,9 @@ const folderDribbleStop = () => {
     }
 }
 
+const draggable = () => {
+}
+
 const mouseMove = setInterval(move, 100);
 const mouseStop = clearInterval(mouseMove);
 
